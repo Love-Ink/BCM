@@ -1,0 +1,62 @@
+Date : 2023-07-31 02:35:10
+Directory : d:\Users\28936\Desktop\temp\BCM\BCM\src
+Total : 35 files,  2195 codes, 959 comments, 604 blanks, all 3758 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| C        |         35 |      2,195 |        959 |        604 |      3,758 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                  | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                     |         35 |      2,195 |        959 |        604 |      3,758 |
+| . (Files)                                                             |          7 |        642 |        345 |        176 |      1,163 |
+| Application                                                           |         16 |      1,027 |        539 |        293 |      1,859 |
+| framework                                                             |         12 |        526 |         75 |        135 |        736 |
++-----------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                              | language | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\Application\ADC.c             | C        |         88 |         10 |         26 |        124 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\Application\ADC.h             | C        |         21 |          0 |          5 |         26 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\Application\Display.c         | C        |        302 |        262 |         66 |        630 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\Application\Display.h         | C        |        148 |         63 |         34 |        245 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\Application\Every_Init.c      | C        |          1 |          0 |          3 |          4 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\Application\Every_Init.h      | C        |          5 |          0 |          3 |          8 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\Application\Key.c             | C        |         59 |          4 |         13 |         76 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\Application\Key.h             | C        |          7 |          0 |          3 |         10 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\Application\LED.c             | C        |         32 |         29 |         11 |         72 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\Application\LED.h             | C        |          5 |          0 |          3 |          8 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\Application\SystemTick.c      | C        |         28 |         13 |         13 |         54 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\Application\SystemTick.h      | C        |         19 |          0 |          6 |         25 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\Application\TIMx.c            | C        |         29 |          4 |         10 |         43 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\Application\TIMx.h            | C        |          5 |          0 |          3 |          8 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\Application\TM1621.c          | C        |        233 |        126 |         78 |        437 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\Application\TM1621.h          | C        |         45 |         28 |         16 |         89 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\ch32v20x_conf.h               | C        |         23 |          9 |          9 |         41 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\ch32v20x_it.c                 | C        |         12 |         23 |          6 |         41 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\ch32v20x_it.h                 | C        |          4 |          9 |          6 |         19 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\framework\Blink.c             | C        |         76 |         18 |         12 |        106 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\framework\Blink.h             | C        |         27 |          3 |         10 |         40 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\framework\ConfigParameters.c  | C        |         49 |          0 |         16 |         65 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\framework\ConfigParameters.h  | C        |         17 |          0 |          5 |         22 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\framework\FaultDetection.c    | C        |        144 |         16 |         26 |        186 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\framework\FaultDetection.h    | C        |         39 |          0 |         14 |         53 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\framework\Key_Device.c        | C        |         54 |         14 |         12 |         80 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\framework\Key_Device.h        | C        |         32 |          2 |         11 |         45 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\framework\TimeSilce_polling.c | C        |         56 |         15 |         14 |         85 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\framework\TimeSilce_polling.h | C        |         19 |          0 |          7 |         26 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\framework\public.c            | C        |          8 |          7 |          6 |         21 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\framework\public.h            | C        |          5 |          0 |          2 |          7 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\main.c                        | C        |         22 |         10 |         13 |         45 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\main.h                        | C        |         16 |          1 |          6 |         23 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\system_ch32v20x.c             | C        |        553 |        283 |        127 |        963 |
+| d:\Users\28936\Desktop\temp\BCM\BCM\src\system_ch32v20x.h             | C        |         12 |         10 |          9 |         31 |
+| Total                                                                 |          |      2,195 |        959 |        604 |      3,758 |
++-----------------------------------------------------------------------+----------+------------+------------+------------+------------+
