@@ -37,5 +37,8 @@ void Application_Fault_Init() {
     FaultDet_InitStructure.Relation = Greater_than;
     Creat_FaultDetection("Unbalance", &FaultDet_InitStructure, ENABLE);  //创建不平衡监测项目
 
-
+    FaultDet_InitStructure.pDet_val = (uint32_t *)&ADC_Measuring.Unbalance_value;
+    FaultDet_InitStructure.Threshold = 50;
+    FaultDet_InitStructure.Relation = Greater_than;
+    Creat_FaultDetection("Unbalance", &FaultDet_InitStructure, ENABLE);  //创建不平衡监测项目
 }
