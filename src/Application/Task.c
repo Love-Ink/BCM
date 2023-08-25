@@ -182,7 +182,7 @@ void Display_Cfg_Page(uint16_t Page, uint32_t Val) {
             Project_Display_Segment_ShowIntegerNumber(0,Val,4);//显示小时数
             break;
         case CFG_MODE_Preheating_Temp_Time_PAGE : //温度正常时间
-            Display_Clear_Param();
+            Display_Clear_Param();  
             MyDisplayData.Param_Time = 1;        // 显示时间标题
             MyDisplayData.Unit_M = 1;
             Val = Val/60;       //转化分钟数
