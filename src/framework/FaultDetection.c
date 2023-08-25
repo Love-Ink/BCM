@@ -152,6 +152,11 @@ void Remove_FaultDatflag(uint8_t *name){
     }
 }
 
+/**
+ * @brief  显示所有注册监测的各项信息
+ * 
+ * @param ms 时间量
+ */
 void Fault_show(uint16_t ms){
     if(FaultDetection_Head == NULL) return ;
 
@@ -170,6 +175,11 @@ void Fault_show(uint16_t ms){
     printf("=================================================================\r\n");
 }
 
+/**
+ * @brief 显示当前超过阈值的监测项信息
+ * 
+ * @param ms 
+ */
 void Fault_INFO_show(uint16_t ms){
     if(FaultDetection_Head == NULL) return ;
 

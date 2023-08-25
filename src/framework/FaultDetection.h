@@ -16,7 +16,7 @@ typedef enum{
 typedef struct FalutDetection_Config{
     uint32_t        *pDet_val;          //监测变量地址
     uint32_t        *pThreshold;        //会变化的阈值
-    uint32_t        Threshold;           //针对宏阈值
+    uint32_t        Threshold;           //针对宏阈值(不变化的阈值)
     uint16_t        Hold_time_set;      //保持多长时间触发(ms)
     Relation_enum   Relation;           //关系
 

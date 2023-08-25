@@ -5,8 +5,8 @@
 
 
 typedef enum {
-    Task_State_Run,
-    Task_State_Suspend
+    Task_State_Run,     //任务状态为运行
+    Task_State_Suspend  //任务状态为挂起
 }Task_state;
 
 
